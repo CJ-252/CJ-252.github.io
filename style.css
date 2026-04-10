@@ -97,9 +97,9 @@ a:hover {
 }
 
 .about-photo {
-    width: 100%;
+    width: 300;
     max-width: 350px;
-    height: auto;
+    height: 400px;
     max-height: auto;
     border-radius: 8px;
     flex-shrink: 0;
