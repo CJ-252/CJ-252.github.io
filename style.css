@@ -99,6 +99,16 @@ a:hover {
 .about-photo {
     width: 200px;
     height: auto;
+    max-height: 300px;
     border-radius: 8px;
     flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .about-layout {
+        flex-direction: column;
+    }
+    .about-photo {
+        width: 150px;
+    }
 }
