@@ -97,12 +97,12 @@ a:hover {
 }
 
 .about-photo {
-    width: 200px;
+    width: 300px;
     height: auto;
-    max-height: 300px;
+    max-height: 400px;
     border-radius: 8px;
     flex-shrink: 0;
-    max-width: 250px;
+    max-width: 350px;
 }
 
 @media (max-width: 768px) {
